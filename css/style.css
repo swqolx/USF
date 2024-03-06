@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.header {
+    
+  height: 72px;
+  background-color:var(--black-color) ;
+ 
+}
+:root{
+    --black-color:#000000;
+    --white-color:#ffffff;
+    --yellow-color:#ffff00;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 26px;
+   padding-bottom: 26px;
+color:var(--white-color) ;
+}
+.header-item:hover{
+    color:var(--yellow-color) ;
+    padding-right: 20px;
+}
